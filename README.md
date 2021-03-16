@@ -1,7 +1,7 @@
 # Cmds
 German Pocketmine Commands
 
-### H3 Default Perms
+### Default Perms
 | Command       | Permission    |
 | ------------- |:-------------:|
 | /clearchat    | cmd.clearchat |
