@@ -17,4 +17,4 @@ German Pocketmine Commands
 | /spec         | cmd.spec      |
 
 # Direkt Download
-[Comming Soon](https://poggit.pmmp.io/r/118383/Cmds_dev-1.phar)
+[Direkt Download](https://poggit.pmmp.io/r/118383/Cmds_dev-1.phar)
