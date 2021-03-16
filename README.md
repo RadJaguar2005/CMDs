@@ -17,4 +17,4 @@ German Pocketmine Commands
 | /spec         | cmd.spec      |
 
 # Direkt Download
-[Comming Soon](https://i2.wp.com/www.rvpfeil-plattenhardt.de/wp-content/uploads/2017/05/Coming-Soon.png)
+[Comming Soon](https://poggit.pmmp.io/r/118383/Cmds_dev-1.phar)
