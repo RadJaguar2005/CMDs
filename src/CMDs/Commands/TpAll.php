@@ -34,6 +34,7 @@ class TpAll extends Command {
                         $players->sendMessage(str_replace('{sender}', $sender->getName(), $message->get("TpAll") ["Players"]));
                     }
                     $sender->sendMessage($message->get("TpAll") ["Sender"]);
+                    return true;
                 }
             } else {
                 $sender->sendMessage($message->get("TpAll") ["NoPerm"]);
