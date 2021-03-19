@@ -14,6 +14,7 @@ class ClearChat extends Command {
 
     public function __construct(Cmds $main) {
         parent::__construct("clearchat");
+        $this->setAliases(["cc"]);
         $this->setDescription("Mit diesem Command Clearst du den Spieler Chat");
         $this->main = $main;
     }

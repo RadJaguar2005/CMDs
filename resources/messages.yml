@@ -35,3 +35,13 @@ Spec:
   SpecOn: "§b§lCmd §r§7» §aDu hast den Spec mode Betreten"
   SpecOff: "§b§lCmd §r§7» §aDu hast den Spec moce Verlassen"
   NoPerm: "§b§lCmd §r§7» §cUps... Wie es aussieht hast du keine rechte für diesen Command!"
+TpAll:
+  Sender: "§b§llCmd §r§7» §aEs wurden alle Online Spieler zu dir Telepotiert"
+  Players: "§b§lCmd §r§7» §aDu wurdest zu dem Spieler §e{sender} §aTelepotiert durch ein Tpall"
+  MaxPlayers: "§b§lCmd §r§7» §aEs müssen mindestens §e{max} §aSpieler Online Sein"
+  NoPerm: "§b§lCmd §r§7» §cUps... Wie es aussieht hast du keine rechte für diesen Command!"
+KickAll:
+  Sender: "§b§llCmd §r§7» §aEs wurden §e{players} §aGekickt"
+  NoReason: "Es wurde kein Kick Grund genannt"
+  MaxPlayers: "§b§lCmd §r§7» §aEs müssen mindestens §e{max} §aSpieler Online Sein"
+  NoPerm: "§b§lCmd §r§7» §cUps... Wie es aussieht hast du keine rechte für diesen Command!"

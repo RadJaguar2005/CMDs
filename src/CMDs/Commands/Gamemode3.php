@@ -14,6 +14,7 @@ class Gamemode3 extends Command {
 
     public function __construct(Cmds $main ){
         parent::__construct("gm 3");
+        $this->setAliases(["gms", "gm3"]);
         $this->setDescription("Setze dich in den gm 3");
         $this->main = $main;
     }

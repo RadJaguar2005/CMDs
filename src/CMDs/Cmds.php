@@ -11,8 +11,11 @@ use CMDs\Commands\Gamemode1;
 use CMDs\Commands\Gamemode2;
 use CMDs\Commands\Gamemode3;
 use CMDs\Commands\Heal;
+use CMDs\Commands\KickAll;
+use CMDs\Commands\Nick;
 use CMDs\Commands\Night;
 use CMDs\Commands\Spec;
+use CMDs\Commands\TpAll;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
 
@@ -48,12 +51,16 @@ class Cmds extends PluginBase {
         $this->getServer()->getCommandMap()->register('day', new Day($this));
         $this->getServer()->getCommandMap()->register('night', new Night($this));
         $this->getServer()->getCommandMap()->register('clearchat', new ClearChat($this));
+        $this->getServer()->getCommandMap()->register('tpall', new TpAll($this));
+        $this->getServer()->getCommandMap()->register('kickall', new KickAll($this));
+        # $this->getServer()->getCommandMap()->register('nick', new Nick($this));
     }
 
     public function onData() {
         @mkdir($this->getDataFolder());
         $this->saveResource("messages.yml");
         $this->saveResource("permission.yml");
+        # $this->saveResource("nicks.yml");
     }
 
 }

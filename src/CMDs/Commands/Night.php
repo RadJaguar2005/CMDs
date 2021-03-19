@@ -14,6 +14,7 @@ class Night extends Command {
 
     public function __construct(Cmds $main) {
         parent::__construct("night"); # 181000
+        $this->setAliases(["nacht"]);
         $this->setDescription("Setzte die Zeit auf Nacht");
         $this->main = $main;
     }

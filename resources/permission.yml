@@ -19,3 +19,7 @@ Heal: "cmd.heal"
 Night: "cmd.night"
 
 Spec: "cmd.spec"
+
+TpAll: "cmd.tpall"
+
+KickAll: "cmd.kickall"

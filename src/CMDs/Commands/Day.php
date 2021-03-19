@@ -14,6 +14,7 @@ class Day extends Command {
 
     public function __construct(Cmds $main) {
         parent::__construct("day");
+        $this->setAliases(["tag"]);
         $this->setDescription("Setze die Zeit auf tag");
         $this->main = $main;
     }
