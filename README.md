@@ -19,4 +19,4 @@ German Pocketmine Commands
 | /kickall      | None       | cmd.spec      |
 
 # Direkt Download
-[Direkt Download](https://poggit.pmmp.io/r/118904/Cmds_dev-5.phar)
+[Download](https://poggit.pmmp.io/r/118904/Cmds_dev-5.phar)
