@@ -32,9 +32,10 @@ class TpAll extends Command {
                     if ($players !== $sender) {
                         $players->teleport($sender);
                         $players->sendMessage(str_replace('{sender}', $sender->getName(), $message->get("TpAll") ["Players"]));
+                        return true;
                     }
                     $sender->sendMessage($message->get("TpAll") ["Sender"]);
-                    return true;
+                    break;
                 }
             } else {
                 $sender->sendMessage($message->get("TpAll") ["NoPerm"]);
