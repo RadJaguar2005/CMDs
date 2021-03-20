@@ -15,8 +15,8 @@ German Pocketmine Commands
 | /heal         | None       | cmd.heal      |
 | /night        | /nacht     | cmd.night     |
 | /spec         | None       | cmd.spec      |
-| /tpall        | None       | cmd.spec      |
-| /kickall      | None       | cmd.spec      |
+| /tpall        | None       | cmd.tpall     |
+| /kickall      | None       | cmd.kickall   |
 
 # Direkt Download
 [Download](https://poggit.pmmp.io/r/118904/Cmds_dev-5.phar)
